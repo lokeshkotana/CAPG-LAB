@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title></title>
+</head>
+<body >
+<form action="mailto:lnd.in@capgemini.com" name="ab" method="post">
+<table border="1" style="background-color:skyblue; " align="center">
+<tr>
+<td><b>NAME :</b> <font color="red">*</font></td>
+<td>
+      <INPUT TYPE="TEXT" NAME="name" SIZE="15" pattern="[A-Za-z]" required>
+    </td>
+</tr>
+<tr>
+<td><b>PASSWORD :</b><font color="red">*</font></td>
+<td>
+      <input type="password" size="15" required>
+    </td>
+</tr>
+<tr>
+<td><b>PHONE NO :</b> <font color="red">*</font></td>
+<td>
+<input type="number" size="10" required>
+</td>
+</tr>
+<tr>
+<td><b>GENDER :</b><font color="red">*</font></td>
+<td >
+ <input  type="radio" name="s-grp" value="male" required> Male 
+ <input  type="radio" name="s-grp" value="female" required>Female
+  </td>
+</tr>
+<tr>
+  <td><b>DATE OF BIRTH :</b><font color="red">*</font></td>
+<td>
+      <input type="date" max="2019-04-08" required>
+    </td>
+</tr>
+ <tr>
+<td><b>EMAIL :</b> <font color="red">*</font></td>
+<td>
+<input type="email" required>
+</td>
+</tr>   
+<tr>
+<td><b>HIGHEST QUALIFICATION :</b><font color="red">*</font>
+</td>
+<td>
+<input type="text" list="qualify" placeholder="Select highest qualification" required>
+<datalist id="qualify" >
+    <option value="BTECh">
+    <option value="MTECH">    
+    <option value="MBA">
+    <option value="BCOM">
+    <option value="MCOM">
+</datalist>
+</td>
+</tr>
+<tr>
+<td><b>COURSES INTERESTED IN :</b><font color="red">*</font>
+</td>
+<td>
+<input type="checkbox" name="java" required>JAVA
+<input type="checkbox" name="HTML" required>HTML5
+<input type="checkbox" name="css" required>CSS 3
+<input type="checkbox" name="angular" required>ANGULAR JS
+<input type="checkbox" name="jquery" required>J QUERY
+</td>
+</tr>
+<tr>
+<td>
+<b>COMMENTS (MENTION EXTERNAL CERTIFICATES IF ANY) :</b>
+</td>
+<td>
+     <textarea name="addr" Rows="4" cols="50" > </textarea>
+    </td>
+ </tr>
+ <tr>
+ <td>
+	<b>Uploading Degree / External certificates</b><font color="red">*</font>
+ </td>
+ <td>
+ <input type="file" required>
+ </tr>   
+ <tr>
+ <td>
+ </td>
+ <td>
+ <input type="submit" value="SUBMIT INfORMATION">
+ <input type="reset" value="CLEAR">
+ </td>
+ </tr>
+</table>
+</form>
+</body>
+</html>
